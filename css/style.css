@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background-color:#f4f4f4;
+
+}
+header {
+    background: #35424a;
+    color: #FFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 6px black;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+.image-banner {
+    width:100%;
+    height: 400px;
+    min-height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/aula22-08/img/manicomioojpg.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-text {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+}
+
+button{
+    background-color: rgba(6, 100, 29, 0.918);
+    color: #ffffff;
+    border: none;
+    padding: 16px 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+.section {
+    padding: 20px;
+    background: #FFFF;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+footer, .footer {
+    text-align:center;
+    padding: 10px 0;
+    background: #35424a;
+    position: relative;
+    color: #ffffff;
+    bottom:0;
+    width:100%;
+
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;top:0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: #FFFF;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    position:relative;
+}
+.close {
+    position: absolute;
+    top: 10px; right: 15px;
+    font-size: 1.5rem;
+    cursor:pointer;
+
+}
+.modal-content form {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.modal-content input {
+    padding:6px;
+    border-radius:4px;
+    border:1px solid #ccc;
+}
