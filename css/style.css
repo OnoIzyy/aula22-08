@@ -25,8 +25,8 @@ header h1 {
 }
 .image-banner {
     width:100%;
-    height: 400px;
-    min-height: 400px;
+    height: 585px;
+    min-height: 585px;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/aula22-08/img/manicomioojpg.jpg');
     background-size:cover;
     background-position: center;
@@ -119,4 +119,28 @@ footer, .footer {
     padding: 6px;
     border-radius: 4px;
     border: 1px solid #ccc;
+}
+
+.rooms-status {
+    display:flex;
+    flex-wrap:wrap ;
+    gap:8px;
+    margin-top:16px ;
+    justify-content: center;
+}
+.rooms-square {
+    width: 24px;
+    height: 24px;
+    border-radius:4px;
+    display:inline-block;
+    border:2 solid #fff;
+    box-shadow: 0 1px 1px black;
+}
+
+.rooms-occupied {
+    background:rgb(146, 2, 2) ;
+}
+
+.rooms-free {
+    background: rgb(2, 108, 2);
 }
