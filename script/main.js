@@ -1,7 +1,7 @@
 document.getElementById('openRegister').onclick = function() {
     document.getElementById('registerModal').style.display='flex';
 };
-document.getElementById('closeModal').onclick= function() {
+document.getElementById('closeModal').onclick = function() {
     document.getElementById('registerModal').style.display = 'none';
 
 };
@@ -22,7 +22,7 @@ const totalRooms= 20;
 const occupiedRooms=7;
 const freeRooms= totalRooms- occupiedRooms;
 
-document.getElementById('showRooms').onclick= function(){
+document.getElementById('showRooms').onclick = function(){
     let html = `<strong>Total de Quartos:</strong> ${totalRooms}<br>` ;
     html +=`<strong>Ocupados:</strong> ${occupiedRooms} &nbsp; <strong>Livres:</strong> ${freeRooms}<br>` ;
     html += `<div class="rooms-status">`;
